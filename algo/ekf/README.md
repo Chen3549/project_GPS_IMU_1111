@@ -23,12 +23,12 @@ C/C++版本EKF库编译、运行参照EKF_NAV_INS说明.md
 ### 2.2 MATLAB
 MATLAB版本运行EKF库使用案例运行
 
-% todo: 读取GPS+IMU数据，调用EKF进行仿真处理，绘制图形
+读取GPS+IMU数据，调用EKF进行仿真处理，绘制图形
 ```matlab
 >> test_ekf
 ```
 
-MATLAB版本EKF运行实例命令
+调用绘图工具, 对EKF结果数据进行处理、绘制
 ```matlab
 >> draw_ekf_data('./test/walk_test/2025_11_12_11_10_cloudy/data/ekf_2025_11_12_11_10_57.csv', true, './test/walk_test/2025_11_12_11_10_cloudy/picture/')
 ```
