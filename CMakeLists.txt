@@ -19,7 +19,7 @@ set(SOURCES
     ./src/drivers/gnss/cpp/gps_parser.cpp
     ./src/drivers/imu/cpp/imu_parser.cpp
     ./src/app/main_ekf_nav_ins.cpp
-    ./src/utils/util.cpp
+    ./src/utils/util.c
 )
 
 add_executable(EKF_NAV_INS ${SOURCES})
